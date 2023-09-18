@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-TRAVIS_BRANCH=master ./build.sh
+TRAVIS_BRANCH=master
 
 set -e #Exit on first error
 

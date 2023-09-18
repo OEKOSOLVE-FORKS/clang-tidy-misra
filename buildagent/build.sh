@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+TRAVIS_BRANCH=master ./build.sh
+
 set -e #Exit on first error
 
 if [ ${TRAVIS_BRANCH} ]; then
